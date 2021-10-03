@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--    Определение драйвера для БД-->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+        <!--    Значения определены в hibernate.properties-->
+<!--        <property name="hibernate.connection.url"></property>-->
+<!--        <property name="hibernate.connection.username"></property>-->
+<!--        <property name="hibernate.connection.password"></property>-->
+
+        <property name="hibernate.dialect">org.hibernate.dialect.MariaDBDialect</property>
+
+        <!--    Отображение SQL запросов в консоли-->
+        <property name="show_sql">true</property>
+
+        <!--    Автоматическое создание таблиц в БД-->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+<!--        <mapping class="com.example.database.P00_Example.Student"/>-->
+<!--        <mapping class="com.example.database.P04_Basic.Student"/>-->
+<!--        <mapping class="com.example.database.P05_Column.Student"/>-->
+<!--        <mapping class="com.example.database.P06_Type.Student"/>-->
+<!--        <mapping class="com.example.database.P07_Enums.Student"/>-->
+<!--        <mapping class="com.example.database.P08_Date.Student"/>-->
+<!--        <mapping class="com.example.database.P09_TimeStampGeneration.Student"/>-->
+<!--        <mapping class="com.example.database.P10_LoadGet.Student"/>-->
+<!--        <mapping class="com.example.database.P11_Formula.Student"/>-->
+<!--        <mapping class="com.example.database.P12_Embeddable.Student"/>-->
+<!--        <mapping class="com.example.database.P13_TableName.Student"/>-->
+<!--        <mapping class="com.example.database.P14_AccessType.Student"/>-->
+<!--        <mapping class="com.example.database.P15_Transient.Student"/>-->
+<!--        <mapping class="com.example.database.P16_Id.Student"/>-->
+<!--        <mapping class="com.example.database.P17_EmbeddedId.Student"/>-->
+
+<!--        <mapping class="com.example.database.P18_OneToOne.C1_UniDirectionalConnection.Address"/>-->
+<!--        <mapping class="com.example.database.P18_OneToOne.C1_UniDirectionalConnection.Student"/>-->
+
+<!--        <mapping class="com.example.database.P18_OneToOne.C2_BiDirectionalConnection.Address"/>-->
+<!--        <mapping class="com.example.database.P18_OneToOne.C2_BiDirectionalConnection.Student"/>-->
+
+<!--        <mapping class="com.example.database.P20_OneToMany_ManyToOne.C1_UniDirectionalConnection.Address"/>-->
+<!--        <mapping class="com.example.database.P20_OneToMany_ManyToOne.C1_UniDirectionalConnection.Student"/>-->
+
+<!--        <mapping class="com.example.database.P20_OneToMany_ManyToOne.C2_BiDirectionalConnection.Address"/>-->
+<!--        <mapping class="com.example.database.P20_OneToMany_ManyToOne.C2_BiDirectionalConnection.Student"/>-->
+
+<!--        <mapping class="com.example.database.P21_ManyToMany.Address"/>-->
+<!--        <mapping class="com.example.database.P21_ManyToMany.Student"/>-->
+
+<!--        <mapping class="com.example.database.P22_JoinTable.Address"/>-->
+<!--        <mapping class="com.example.database.P22_JoinTable.Student"/>-->
+
+<!--        <mapping class="com.example.database.P23_Collections.C1_EntityCollections.Address"/>-->
+<!--        <mapping class="com.example.database.P23_Collections.C1_EntityCollections.Student"/>-->
+
+<!--        <mapping class="com.example.database.P23_Collections.C2_EmbeddableCollections.Student"/>-->
+
+<!--        <mapping class="com.example.database.P23_Collections.C3_BasicCollections.Student"/>-->
+
+<!--        <mapping class="com.example.database.P24_SortCollections.Student"/>-->
+
+<!--        <mapping class="com.example.database.P25_NaturalId.Student"/>-->
+
+<!--        <mapping class="com.example.database.P27_InheritanceStrategies.Person"/>-->
+<!--        <mapping class="com.example.database.P27_InheritanceStrategies.Student"/>-->
+<!--        <mapping class="com.example.database.P27_InheritanceStrategies.Worker"/>-->
+
+<!--        <mapping class="com.example.database.P28_EntityState.Student"/>-->
+
+<!--        <mapping class="com.example.database.P29_Locks.Student"/>-->
+
+<!--        <mapping class="com.example.database.P30_Cash.Student"/>-->
+
+<!--        <mapping class="com.example.database.P31_HQL.Student"/>-->
+
+<!--        <mapping class="com.example.database.P32_HQL_SelectAndAlias.Student"/>-->
+
+<!--        <mapping class="com.example.database.P33_HQL_Where.Student"/>-->
+
+<!--        <mapping class="com.example.database.P34_HQL_Distinct.Student"/>-->
+
+<!--        <mapping class="com.example.database.P35_HQL_Pagination.Student"/>-->
+
+<!--        <mapping class="com.example.database.P36_HQL_Sort.Student"/>-->
+
+<!--        <mapping class="com.example.database.P37_HQL_GroupByAndHaving.Student"/>-->
+
+<!--        <mapping class="com.example.database.P38_HQL_Join.Role"/>-->
+<!--        <mapping class="com.example.database.P38_HQL_Join.User"/>-->
+
+<!--        <mapping class="com.example.database.P39_HQL_Where.Student"/>-->
+
+<!--        <mapping class="com.example.database.P40_HQL_Function.Student"/>-->
+
+<!--        <mapping class="com.example.database.P41_HQL_UpdateDeleteInsert.Student"/>-->
+
+<!--        <mapping class="com.example.database.P42_HQL_NamedQueries.Student"/>-->
+
+        <mapping class="com.example.database.P43_HQL_NativeQueries.Student"/>
+
+
+
+
+    </session-factory>
+</hibernate-configuration>
